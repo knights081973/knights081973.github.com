@@ -1,0 +1,31 @@
+
+h1 {
+  color: blue;                    /* To see the bloks of columns */
+  background-color: #FFC258; 
+  border-top: 2px solid #060122;  
+  border-left: 1px solid #060122;
+  text-align: center; 
+  width: 380px;
+  box-shadow: -4px -4px 3px #888888;
+  text-shadow: -4px -4px 3px #888888;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+hr {
+  background-color: #9388CE;
+  width: 95%;
+  height: 8px;
+  box-shadow: -4px -4px 3px #8888;
+
+}
+
+
+.col {
+  background-color: yellow;
+  border: 2px solid blue;
+}
+
+.col-sm-6 {
+  background-color: orange;
+}
