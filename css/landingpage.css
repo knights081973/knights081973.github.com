@@ -12,20 +12,20 @@ h1 {
 
 .clear {
 	text-align: center;
-	margin-top:7em;
+	margin-top:5em;
 }
 
-.btn {
+/*.btn {
 text-align: center;
 }
 
-
+*/
 hr.hr1 {
 	background-color: gold;
 	height: 1px;
 	box-shadow: -2px -2px 5px #fff;
-	width: 20em;
-	margin-top: 260px;
+	width: 17em;
+	margin-top: 240px;
 }
 
 footer {
