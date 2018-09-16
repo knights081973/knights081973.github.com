@@ -15,10 +15,10 @@ h1 {
 	margin-top:7em;
 }
 
-/*label {
-	color: blue;
-	align-content: center;
-}*/
+.btn {
+	align-self: center;
+}
+
 
 hr.hr1 {
 	background-color: gold;
