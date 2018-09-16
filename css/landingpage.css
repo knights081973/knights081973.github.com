@@ -10,22 +10,22 @@ h1 {
 	text-shadow: -3px -3px 7px #000;
 }
 
+.clear {
+	text-align: center;
+	margin:5em;
+}
+
+label {
+	color: blue;
+	align-content: center;
+}
+
 hr.hr1 {
 	background-color: gold;
 	height: 1px;
 	box-shadow: -2px -2px 5px #fff;
-	margin-top: 250px;
-	margin-bottom: 3px;
 	width: 20em;
-}
-
-/*.clear {
-	margin: 100px 5em 5em;
-	text-align: center;
-}*/
-
-label {
-	color: blue;
+	margin-top: 260px;
 }
 
 footer {
