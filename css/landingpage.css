@@ -10,15 +10,18 @@ h1 {
 	text-shadow: -3px -3px 7px #000;
 }
 
-.clear {
+/*.clear {
 	text-align: center;
-	margin-top:5em;
+	margin-top:10em;
 }
+*/
 
 .btn {
-text-align: center;
-}
+	margin-top:10em;
+	text-align: center;
 
+}
+ 
 
 hr.hr1 {
 	background-color: gold;
