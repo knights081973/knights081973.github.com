@@ -13,7 +13,7 @@ h2 {
 	font-size: 2em;
 	border-bottom: 5px solid pink;			/*	Draw a line bottom of h2 */	
 	text-align: center;	
-	width: 450px;
+	/*width: 450px;*/
 /*	Vertical line in the right */
 	border-right: 2px solid pink;			/*	Draw a Vertical line left of the h2  */
 	-moz-box-shadow: 4px 4px 5px #888888;	/*	Support Mozilla 			*/
