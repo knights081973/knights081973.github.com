@@ -19,9 +19,10 @@ hr.hr1 {
 	width: 20em;
 }
 
-.clear {
-	margin-top: 100px;
-}
+/*.clear {
+	margin: 100px 5em 5em;
+	text-align: center;
+}*/
 
 label {
 	color: blue;
