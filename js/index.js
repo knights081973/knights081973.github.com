@@ -78,27 +78,27 @@
 
 		galleryImages.forEach(image => {
 			image.addEventListener("click", event => {
-				galleryImageOpen(event.target);
+		/*		galleryImageOpen(event.target);*/
 			})
 		}) 
 	}
 
-	const galleryImageOpen = image => {
+/*	const galleryImageOpen = image => {
 		const imageSrc = image.getAttribute("src");
-/*	NOTE: "`" is not "'" be careful...    */
+/*	NOTE: "`" is not "'" be careful...    */ /*
 		const openedImage = `<div class='ep-backdrop'><img src='${imageSrc}' alt='' />
 							 <span class="ep-backdrop-close">X</span></div>`;
 
 		document.body.insertAdjacentHTML("beforeend", openedImage);
 
 	}
-
+*/
 	window.addEventListener("scroll", () => {
 		addMenuBackground();
 	})
 
 	onNavItemClick();
 	onTestimonialChange();
-	onGalleryImageClick();
+/*	onGalleryImageClick();*/
 
 })(); 
