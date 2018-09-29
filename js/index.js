@@ -10,6 +10,22 @@
 				boddyOffset > 700 ? navigation.classList.add("ep-nav-fixed") : navigation.classList.remove("ep-nav-fixed");
 		}
 	}
+// ------------------------------------------------------------------------------------------//
+/*	Creating Humborger Menu    */
+	const reorderResponsiveMenu = () => {
+		const pageWidth = window.innerWidth;
+		const navContainer = document.querySelector("header nav .ep-container");
+		const navigation = document.querySelector("header nav .ep-navigation");
+		const mobileNavigation = document.querySelector("body > .ep-navigation");
+
+		if (pageWidth <= mobileWidth && navigation) {
+		    document.body.insertAdjacentElement("afterbegin", navigation);
+		} else if (pageWidth > mobileWidth && mobileNavigation) {
+			navContainer.insertAdjacentElement("beforeend", mobileNavigation);
+		}
+	}
+
+// ------------------------------------------------------------------------------------------//
 
 	const onNavItemClick = () => { 
 		const navItemList = document.querySelectorAll(".ep-section-link")
@@ -102,12 +118,15 @@
 		})
 	}
 
-
-
 	window.addEventListener("scroll", () => {
 		addMenuBackground();
 	})
 
+	window.addEventListener("resize", () => {
+		reorderResponsiveMenu();
+	})
+
+	reorderResponsiveMenu();
 	onNavItemClick();
 	onTestimonialChange();
 	onGalleryImageClick();

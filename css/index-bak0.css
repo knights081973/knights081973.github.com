@@ -443,6 +443,12 @@ footer .ep-social-icons li a:hover {
 }
 
 
+
+
+
+
+
+
 /* 	/*	My Submit Input      
 #ep-contact input[type="submit"] {
     background-color: #dca453;
@@ -453,6 +459,8 @@ footer .ep-social-icons li a:hover {
     border: none;
  }
 */
+
+
 
 
 /* 		Animate Main 	*/
@@ -475,6 +483,7 @@ footer .ep-social-icons li a:hover {
 		opacity: 0.3;
 	}
 }
+
 
 
 /* 		Logo-Register	*/
@@ -520,52 +529,3 @@ footer .ep-social-icons li a:hover {
  .ep-user-name {
  	text-align: center;
  }
-
-
-/*     Responsive for Mobile devices      */
-@media all and (max-width: 1020px) {
-	.ep-container {
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-}
-
-@media all and (max-width: 820px) {
-	h1 {
-		font-size: 50px;
-	}
-
-@media all and (max-width: 530px) {
-	h1 {
-		font-size: 40px;
-	}
-
-
-	.ep-header-text .ep-arrow,
-	.ep-testimonials .ep-arrow {
-		padding: 15px;
-	}
-
-	.ep-testimonials .ep-arrow.ep-arrow-right {
-		left: 100%;
-	}
-
-	.ep-testimonials .ep-arrow.ep-arrow-left {
-		right: 100%;
-	}
-
-}
-
-/*  	Creating Humborger Menu   */
-@media all and (max-width: 680px) {
-	header nav {
-		position: absolute; 
-	}
-	header nav.ep-nav-fixed {
-		background: none;
-	}
-}
-
-
-
-
