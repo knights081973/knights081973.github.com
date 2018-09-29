@@ -11,7 +11,7 @@
 		}
 	}
 
-	const onNavItemClick = () => {
+	const onNavItemClick = () => { 
 		const navItemList = document.querySelectorAll(".ep-section-link")
 		const navItems = [...navItemList];
 
@@ -78,30 +78,38 @@
 
 		galleryImages.forEach(image => {
 			image.addEventListener("click", event => {
-		/*		galleryImageOpen(event.target);*/
+				galleryImageOpen(event.target);
 			})
 		}) 
 	}
 
-/*	const galleryImageOpen = image => {
+	const galleryImageOpen = image => {
 		const imageSrc = image.getAttribute("src");
-/*	NOTE: "`" is not "'" be careful...    */ /*
+/*	NOTE: "`" is not "'" be careful...    */
 		const openedImage = `<div class='ep-backdrop'><img src='${imageSrc}' alt='' />
 							 <span class="ep-backdrop-close">X</span></div>`;
 
 		document.body.insertAdjacentHTML("beforeend", openedImage);
-
+		galleryImageClose();
 	}
-*/
+
+	const galleryImageClose = () => {
+		const closeButton = document.querySelector(".ep-backdrop-close");
+
+		closeButton.addEventListener("click", () => {
+			const backdrop = document.querySelector(".ep-backdrop");
+			backdrop.remove();
+		})
+	}
+
+
+
 	window.addEventListener("scroll", () => {
 		addMenuBackground();
 	})
 
 	onNavItemClick();
 	onTestimonialChange();
-/*	onGalleryImageClick();*/
+	onGalleryImageClick();
 
 })(); 
-
-
-/*	UPDATING... */
